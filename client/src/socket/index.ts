@@ -18,7 +18,7 @@ socket.on('messages', (messages: Message[]) => {
 		}
 	});
 	messagesStore.set(validatedMessages);
-	console.log('Received messages', messages);
+	// console.log('Received messages', messages);
 });
 
 interface SendSuccess {
